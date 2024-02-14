@@ -1,3 +1,10 @@
+<!--
+	Name: Connor Smith
+	File: index.html
+	Date: 13 Febeuary, 2024
+	Structuring Planet Database
+-->
+
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -7,6 +14,55 @@
     <link href="minimal-table.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>Table template</h1>
+    <table>
+      <caption>
+        Planet Data
+      </caption>
+      <thead>
+        <tr>
+          <td colspan="2"></td>
+          <th>
+            Name
+          </th>
+          <th>
+            Mass
+          </th>
+          <th>
+            Diameters
+          </th>
+          <th>
+            Density
+          </th>
+          <th>
+            Gravity
+          </th>
+          <th>
+            Length of day
+          </th>
+          <th>
+            Distance from sun
+          </th>
+          <th>
+            Mean temperature
+          </th>
+          <th>
+            Number of moons
+          </th>
+          <th>
+            Notes
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2", rowspan="4", scope="rowgroup">
+            Terrestrial planets
+          </td>
+          <th scope="row">
+            Mercury
+          </th>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
