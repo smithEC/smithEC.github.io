@@ -82,12 +82,15 @@ a:hover, a:focus {
 a:focus {
   outline: none;
 }
-
-a.external-link {
-  background-image: url('external-link-icon.png');
+section p a:after {
+  content: "";
+  background-image: url('external-link-52.png');
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: right center;
-  padding-right: 15px;
+  padding-right: 17px;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
 }
 
 ul, ol {
@@ -99,6 +102,19 @@ li {
   line-height: 1.6;
 }
 
-nav {
+nav li {
+  content: "";
+  list-style-type: none;
+  border: 1px solid brown;
+  border-radius: 5px;
+  font-size: 25px;
+  margin-top: 20px;
+  width: 200px;
+  height: 70px;
+  text-align: center;
+}
 
+nav a {
+  color: brown;
+  text-align: center;
 }
