@@ -1,0 +1,28 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+div {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  /* 18 / 17 = 1.06 */
+  font-size: 1.06rem;
+  background-color: brown;
+  color: whitesmoke;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+
+  border-radius: 5px;
+  border: 1px solid black;
+
+   /* Multiple box shadows */
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3), /* Standard box shadow */
+   inset 4px 4px 8px rgba(255, 255, 255, 0.3), /* Semi-transparent white shadow near top left */
+   inset -4px -4px 8px rgba(0, 0, 0, 0.3); /* Semi-transparent black shadow near bottom right */
+}
