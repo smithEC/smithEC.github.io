@@ -1,0 +1,104 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+body {
+  font-family: 'serif-font-name', serif;
+  font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'sans-serif-font-name', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 1px;
+}
+
+p {
+  text-indent: 20px;
+}
+
+a, a:visited, a:focus, a:hover {
+  color: #336699;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: none;
+}
+
+a.external-link {
+  background-image: url('external-link-icon.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 15px;
+}
+
+ul, ol {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  line-height: 1.6;
+}
+
+nav {
+
+}
