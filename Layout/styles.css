@@ -3,8 +3,6 @@ body {
     color: #333;
     margin: 0;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
   }
 
   img {
@@ -23,6 +21,8 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
   }
     
   nav ul {
@@ -57,4 +57,6 @@ body {
 
   .feature {
       width: 200px;
+      float: left;
+      margin: 0 20px 20px 0;
   }
