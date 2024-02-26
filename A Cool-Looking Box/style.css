@@ -3,7 +3,7 @@ html {
 }
 
 /* Your CSS below here */
-div {
+.box {
   width: 200px;
   height: 100px;
   margin: 0 auto;
@@ -22,7 +22,7 @@ div {
   border: 1px solid black;
 
    /* Multiple box shadows */
-   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3), /* Standard box shadow */
-   inset 4px 4px 8px rgba(255, 255, 255, 0.3), /* Semi-transparent white shadow near top left */
-   inset -4px -4px 8px rgba(0, 0, 0, 0.3); /* Semi-transparent black shadow near bottom right */
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3),
+   inset 4px 4px 8px rgba(255, 255, 255, 0.3),
+   inset -4px -4px 8px rgba(0, 0, 0, 0.3);
 }
