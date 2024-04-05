@@ -24,17 +24,19 @@ for (filename in filenames) {
     })
 }
 
-const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
-thumbBar.appendChild(newImage);
-
 /* Wiring up the Darken/Lighten button */
 
 btn.addEventListener('click', () => {
-    const buttonClass = btn.getAnimations('class')
+    const buttonClass = btn.getAttribute('class')
 
     if (buttonClass === 'dark') {
-        
+        btn.setAttribute('class','light');
+        btn.textContent = 'Lighten';
+        overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
+    }
+    else {
+        btn.setAttribute('class','dark');
+        btn.textContent = 'Darken';
+        overlay.style.backgroundColor = 'rgba(0,0,0,0)';
     }
 })
