@@ -1,3 +1,8 @@
+// Name: Connor Smith
+// File: index.html
+// Date: April 5 2024
+// Random Story Generator
+
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
