@@ -15,7 +15,13 @@ for (filename in filenames) {
     const newFile = document.createElement('img')
     newFile.setAttribute('src', 'images/' + filenames[filename])
     newFile.setAttribute('alt', altText[filename])
+
     thumbBar.appendChild(newFile)
+
+    newFile.addEventListener('click', e => {
+        displayedImage.src = e.target.src
+        displayedImage.alt = e.target.alt
+    })
 }
 
 const newImage = document.createElement('img');
@@ -24,3 +30,11 @@ newImage.setAttribute('alt', xxx);
 thumbBar.appendChild(newImage);
 
 /* Wiring up the Darken/Lighten button */
+
+btn.addEventListener('click', () => {
+    const buttonClass = btn.getAnimations('class')
+
+    if (buttonClass === 'dark') {
+        
+    }
+})
